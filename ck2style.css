@@ -1,0 +1,45 @@
+body {
+  background: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  border-left: 6px solid blue;
+  border-radius: 5px;
+  background-color: grey;
+  display: inline;
+}
+h3 {
+  border: 2px dotted;
+  border-radius: 5px;
+  background-color: grey;
+  display: inline;
+}
+.button {
+    background-color: blue;
+    border-radius: 5px 50px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#td01 {
+    background: url(../Images/Untitled.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#td02 {
+    background: url(../Images/Untitled.png);
+}
+span {
+  text-align: center;
+  background-color: grey;
+  display: inline;
+  border: 2px dotted;
+  border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>World Of Warcraft</title>
+    <link rel="stylesheet" href="..\MasterCSS\WoWstyle.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="..\index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Resources
+          <i class="fa fa-caret-down"></i>
+        </button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <div class="dropdown-content">
+          <a href="#">Wowhead</a>
+          <a href="#">WoW Forums</a>
+          <a href="#">WoW Reddit</a>
+        </div>
+      </div>
+    </div><br>
+    <img src="..\Images\WoW Banner.jpg" class="center" height="150px"> <br><br>
+    </div>
+    <!-- The grid: three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#333;">US-Spinebreaker</div>
+  <div class="column" onclick="openTab('b2');" style="background:#333;">OC-Frostmourne</div>
+  <div class="column" onclick="openTab('b3');" style="background:#333;">EU-Tarren Mill</div>
+</div>
+
+<div id="b1" class="containerTab" style="display:none;background:#333">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Characters</h2>
+  <p>Lorem ipsum..</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#333">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Characters</h2>
+        <h2 id="T1">Taisi</h2>
+        <p>something something</p>
+
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#333">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Characters</h2>
+  <p>Lorem ipsum..</p>
+</div>
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+  </body>
+</html>

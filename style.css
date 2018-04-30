@@ -1,0 +1,16 @@
+body {
+  background: url(../Images/Mainbackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1  {
+  text-align: center;
+  color: red;
+}
+h3 {
+  border-left: 6px solid blue;
+  border-radius: 5px;
+  background-color: grey;
+  display: inline;
+}
